@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>你好，我很博爱，也喜欢博奇</h1>
+    <h1>开超模板语法</h1>
+    <h2>controller端传参到view，见useView.js</h2>
+    <div>
+        现在由技师<%=id%>为<%=name%>服务，技师现在<%=age%>岁，擅长<%=skill%>
+                        <br>
+                        逆天技师<%=id2%>更是牛逼大了，擅长:<br>
+                            <ul>
+                                <%for(var i=0;i<skills.length;i++){%>
+                                    <li>
+                                        <%=skills[i]%>
+                                    </li>
+                                    <%}%>
+                            </ul>
+    </div>
+</body>
+
+</html>
