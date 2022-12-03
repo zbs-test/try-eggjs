@@ -1,0 +1,18 @@
+# GET http://127.0.0.1:7001/postPara
+# 配置一个像postman工具，点击进入就行,一次只能有一个GET/POST
+###
+# POST http://127.0.0.1:7001/add
+# Content-Type: application/x-www-form-urlencoded
+
+# # name=postPara get请求时可不要，post请求时，这里就是请求体
+# name=爆超小菲比
+### 我想要json格式
+# POST http://127.0.0.1:7001/add
+# Content-Type: application/json
+# #隔一行
+# {
+#     "name":"我是超人强，越超人越强",
+#     "age":999
+# }
+GET http://localhost:7001/getSome?id=000
+Content-Type: application/x-www-form-urlencoded
